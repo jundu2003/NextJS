@@ -1,11 +1,12 @@
 import Image from "next/image";
+import "../styles/theme.css";
 
 export default function Home() {
   return (
     <div>
-      <h1 classname="h1-hold">Next.js 13 we&apose;re coming!</h1>
-      <h2 classname="h2-hold">Next.js 13 we&apose;re coming!</h2>
-      <h3 classname="h3-hold">Next.js 13 we&apose;re coming!</h3>
+      <h1 className="h1-bold">Next.js 13 we&apos;re coming!</h1>
+      <h2 className="h2-bold">Next.js 13 we&apos;re coming!</h2>
+      <h3 className="h3-bold">Next.js 13 we&apos;re coming!</h3>
     </div>
   );
 }
